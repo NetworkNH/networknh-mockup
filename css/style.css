@@ -594,6 +594,16 @@ form .form-group:first-child .floating-label-form-group {
 
 p.card-text { margin-top: 0; }
 
+.accordion .card-header h5 button span:after {
+    font-family: 'Font Awesome 5 Pro';
+    content: "\f00d";
+    float: right;
+}
+.accordion .card-header h5 button.collapsed span:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
 footer {
   padding: 25px 0 30px;
   //margin-top: 35px;
